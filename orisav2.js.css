@@ -180,7 +180,7 @@
     border: 1px solid white !important;
 }
 .container-iksrDt {
-    background: rgba(0,0,43,0.6);
+    background: rgba(0,0,0,0.6);
     color: #fff;
     font-size: 14px;
     font-weight: 400;
@@ -196,7 +196,7 @@
   color: white !important;
 }
 .channel-text-area-default [class*="textArea-"], .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] {
-    color: #4b83fc !important;
+    color: #fff !important;
 }
 .nameUnreadText-1pxldj, .nameUnreadVoice-QK4gxH {
     color: #1C7AE2;
@@ -243,7 +243,7 @@
     color: #1C7AE2 !important;
 }
 .nameDefaultText-QoumjC {
-    color: #115aad !important;
+    color: #59ba00 !important;
     opacity: 1;
     text-transform: Capitalize;
 }
@@ -327,11 +327,11 @@
      clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     z-index: 1;
     transform: scale(-1, 1);
-    background-color: rgba(57, 106, 216,0.8);
+    background-color: rgba(0, 0, 0,0.8);
 }
 .guilds-wrapper .guilds .friends-icon {
    
-    background-image: url(http://www.newdesignfile.com/postpic/2009/06/snowflakes-winter-icons_175871.png);
+    background-image: url(https://i.ytimg.com/vi/3DU5CmZmCPA/maxresdefault.jpg);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -345,7 +345,7 @@
     background: transparent !important;
 }
 .scroller-fzNley {
-   background: rgba(0,0,43,0.6);
+   background: rgba(0,0,0,0.6);
 }
 .cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"],
 .radio-item.checked[style*="background-color: rgb(114, 137, 218);"],
@@ -360,7 +360,7 @@
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
     border-radius: 3px;
     border: 1px solid #000;
-    background: rgba(0,0,43,0.6);
+    background: rgba(0,0,0,0.6);
  }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
     color: white;
@@ -399,7 +399,7 @@
 }
 
 .content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
-    background: rgba(0,0,73,1);
+    background: rgba(0,0,0,1);
     color: #FFF;
     border: none;
     box-shadow: 0px 1px 0px 0px #36393f inset;
@@ -474,7 +474,7 @@ border-right: 1px solid rgb(255, 255, 255) !important;
 }
 
 .theme-dark .message-group .comment .markup .mention {
-    color: #1C7AE2;
+    color: #2ab500;
     background: #000 !important;
     font-weight: 900;
     border-radius: 5px;
@@ -509,7 +509,7 @@ position: absolute;
     color: rgba(0,0,245,1);
 }
 .app a, .connecting a {
- color: rgba(0,0,245,1);
+ color: rgba(0,0,0,1);
 }
 .itemDefaultSelected-1UAWLe {
     color: #fff;
@@ -660,7 +660,7 @@ color: rgba(255,255,255,1);
 }
 .slider-handle {
 	border: 3px solid white;
-	background-color: rgba(0,0,255,0.6);
+	background-color: rgba(0,0,0,0.6);
 	}
 .slider-handle span {
 	border-radius: 10px;
