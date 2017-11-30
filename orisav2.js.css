@@ -28,7 +28,7 @@
     border-color: transparent;
 }
 .theme-dark .layer, .theme-dark .layers {
-    background: rgba(0,0,43,0.3);
+    background: rgba(0,0,0,0.3);
 }
 .guilds-wrapper {
     background-color: transparent;
@@ -69,15 +69,15 @@
     background: blue !important;
 }
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {
-    background-color: #000056 !important;
+    background-color: #000 !important;
     border: none;
 }
 .theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner:hover {
-    background-color: #000056;
+    background-color: #000;
     border: 2px solid blue;
 }
 .theme-dark .inner-3if5cm {
-    background-color: #000056;
+    background-color: #000;
     border: 2px solid white;
 }
 
@@ -116,7 +116,7 @@
     border: 1px solid #c7f900;
  }
 .theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
-    background: linear-gradient(90deg,#3d85f0 15%,#0b3e89);
+    background: linear-gradient(90deg,#000 15%,#000);
 }
 .headerNormal-1cioxU {
    background: transparent;
@@ -165,7 +165,7 @@
     background-color: rgba(0,0,43,0.3) !important;
 }
 .scroller-NXV0-d {
-    background-color: rgba(0,0,43,0.6) !important;
+    background-color: rgba(0,0,0,0.6) !important;
 }
 .avatar-small .status {
     width: 21px;
@@ -219,7 +219,7 @@
     color: #1C7AE2;
 }
 .nameDefault-1I0lx8 {
-    color: #ffffff;
+    color: #fff;
     font-weight: 600;
     font-size: 15px;
 }
@@ -230,7 +230,7 @@
   opacity: 0;
 }
 .theme-dark .friends-table .messages .divider.divider-red>span, .theme-dark .messages-wrapper .messages .divider.divider-red>span {
-    background-color: #1C7AE2 !important;
+    background-color: #000 !important;
 }
 .chat .new-messages-bar button:first-child {
     font-size: 14px;
@@ -243,14 +243,14 @@
     color: #1C7AE2 !important;
 }
 .nameDefaultText-QoumjC {
-    color: #59ba00 !important;
+    color: #fff !important;
     opacity: 1;
     text-transform: Capitalize;
 }
 @keyframes color {
-    0%   {background-color: #396AD8;}
-    50%  {background-color: blue;}
-    100%  {background-color: #396AD8;}
+    0%   {background-color: #000;}
+    50%  {background-color: #000;}
+    100%  {background-color: #000;}
 }
 @keyframes alert {
 0%{ -ms-transform: translateX(0); transform: translateX(0); }
@@ -314,7 +314,7 @@
 ::-webkit-scrollbar-thumb
 {
     border-radius: 10px;
-    background-color: rgba(0,0,243,0.4) !important;
+    background-color: rgba(0,0,0,0.4) !important;
     border: none;
 }
 .guilds-wrapper .guilds .guild.unread:before {
@@ -350,8 +350,8 @@
 .cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"],
 .radio-item.checked[style*="background-color: rgb(114, 137, 218);"],
 .theme-light .ui-card-primary.checked {
-    background-color: rgba(0,0,120,0.4) !important;
-    border: solid 4px rgba(0,0,160,0.9) !important;
+    background-color: rgba(0,0,0,0.4) !important;
+    border: solid 4px rgba(0,0,0,0.9) !important;
 }
 #user-profile-modal .scroller {
     background-image: url(https://wallpapercave.com/wp/aHXgonf.jpg);
@@ -366,12 +366,12 @@
     color: white;
 }
 #user-profile-modal .tab-bar-container {
-    background-color: rgba(0,0,43,0.6);
+    background-color: rgba(0,0,0,0.6);
     -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.1);
  }
 #user-profile-modal .header:after {
-    background-color: rgba(0,0,43,1) !important;
+    background-color: rgba(0,0,0,1) !important;
 }
 #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
     font-weight: 400;
@@ -453,7 +453,7 @@ border-right: 1px solid rgb(255, 255, 255) !important;
     border-color: transparent;
 }
 .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
-    background: rgba(0,0,43,0.5);
+    background: rgba(0,0,0,0.5);
     border: 1px solid white;
     border-radius: 20px;
     text-shadow: 3px 3px 3px #000;
@@ -523,7 +523,7 @@ position: absolute;
 }
 .theme-dark .itemDefault-3NDwnY:hover {
     border: 1px solid #f6f6f7;
-    background-color: rgba(0,0,115,0.4);
+    background-color: rgba(0,0,0,0.4);
 }
 .barFill-18ABna {
     background: rgba(0,0,175,1);
@@ -585,11 +585,11 @@ position: absolute;
     background-color: transparent;
 }
 .theme-dark .search-answer, .theme-dark .search-filter, .search-popout .date-picker .date-picker-hint .hint-value {
-    background-color: rgba(0,0,255,0.5);
+    background-color: rgba(0,0,0,0.5);
     border: 1.5px solid white;
 }
 .search-popout .option:after {
-   background: rgba(0,0,255,0.3);
+   background: rgba(0,0,0,0.3);
 }
 .search-popout .search-option .filter, .search-popout .search-option .answer, .search-popout .results-group .header, .search-popout .option .filter, .search-popout .option .non-text, .search-popout .option .answer, .search-popout .search-query .search-for strong, .search-popout .option.user .display-username, .search-popout .results-group .header, .search-popout .option .filter, .search-popout .search-query .search-for, .search-popout .option.user .displayed-nick, .search-popout .option strong {
     color: white;
@@ -675,7 +675,7 @@ color: rgba(255,255,255,1);
     border: none;
 }
 .theme-dark .message-group .mentioned .message-text {
-    background: rgba(0,0,250,.2);
+    background: rgba(0,0,0,.2);
 }
 /* Full Main Invited Button */
 .theme-dark .invite-button {
