@@ -1,0 +1,251 @@
+//META{"name":"Serene","description":"A tranquil night theme.","author":"whataboi","version":"1.0"}*//
+
+.container-2OU7Cz, .theme-dark .title-qAcLxz, .theme-dark .chat form, .channels-3g2vYe   {
+    background-color: transparent !important;
+}
+/*Changes main background image*/
+.app {
+    background-image: url("https://i.pinimg.com/originals/de/9c/7d/de9c7d329082fe696c80f3e6b3e9b9f8.jpg") !important;
+    background-size: cover !important;
+}
+.theme-dark .layer, .theme-dark .layers, .theme-white .layer, .theme-white .layers {
+    background: none;
+}
+/*Makes it transparent*/
+.layers,
+.layer,
+.guilds-wrapper,
+.scroller-wrap,
+.flex-3B1Tl4,
+.chat,
+.content,
+.messages-wrapper,
+.channel-members-wrap,
+.scrollerWrap-2uBjct,
+.channel-members,
+.content-2mSKOj,
+#friends,
+.friends-table,
+.private:hover,
+.friend,
+.divider-red span{
+  background: transparent !important;
+}
+.flex-nowrap,
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: transparent;
+}
+
+/********Opacity Changes********/
+
+/*Changes opacity of main chat area*/
+.theme-dark .friends-table, .theme-dark .messages-wrapper, .theme-dark .flex-spacer, theme-dark .flex-vertical{
+    background-color: rgba(0, 0, 0, .2)!important;
+}
+/*Changes opacity of server members area*/
+.theme-dark .channel-members, .theme-dark .channel-members-wrap {
+    background-color: rgba(0, 0, 0, .5)!important;
+}
+
+/*Changes opacity of server name in top left*/
+.theme-dark .flexChild-1KGW5q, .theme-dark .container-3NvGrL {
+background-color: rgba(0, 0, 0, .4);
+}
+/*Changes opacity of sidebar in settings*/
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: rgba(0, 0, 0, 0.4);
+}
+/*Changes opacity of main setting content*/
+.theme-dark .ui-standard-sidebar-view {
+	background: rgba(0, 0, 0, 0.3);
+}
+/*Changes the border color/opacity of code boxes*/
+.chat>.content .messages .message-group .markup pre {
+    background: transparent !important;
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+/*Changes the opacity of code boxes*/
+.chat>.content .messages .message-group .markup pre code.hljs {
+    background: rgba(0, 0, 0, 0.8) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 1em !important;
+}
+/*Changes opacity of sidebar of DM's and server channel's background*/
+.channels-3g2vYe {
+	background-color: rgba(0, 0, 0, .7) !important;
+}
+/*Changes opacity and color of scroller track*/
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border: 3px solid rgba(255, 255, 255, 0) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+/*Changes opacity and color of scroller*/
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    background-color: #26afff !important;
+    border: 3px solid rgba(211, 5, 5, 0) !important;
+}
+.theme-dark .cardPrimary-ZVL9Jr, .theme-dark .flexChild-1KGW5q, {
+    background: rgba(0,0,0,.8);
+    border-color: #202225;
+}
+
+/********End of opacity changes********/
+
+/*Changes aspects of selected private channels*/
+.private-channels .channel.selected {
+    color: #fff;
+    background-color: #7b95af !important;
+    margin-bottom: .79em;
+    border: 1px solid #72b8ff;
+    border-radius: 3px;
+}
+/*Changes aspects of search bar in DM's*/
+.theme-dark .search-bar .search-bar-inner {
+    -ms-flex: 1;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    -webkit-box-direction: normal;
+    -webkit-box-flex: 1;
+    -webkit-box-orient: horizontal;
+    background: rgba(0,0,0,.4);
+    border: 1px solid #3e8ec1;/*Changes color or border*/
+    border-radius: 4px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2px;
+    position: relative;
+}
+/*Changes aspects of the new messages divider*/
+.chat .divider.divider-red>span {
+    background: rgba(255, 255, 255, 0.0) !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0px;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 5px 15px;
+    width: 100%;
+    text-align: center;
+}
+.chat .divider.divider-red>span {
+    background: rgba(12, 100, 153, .6) !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+/*Changes aspects of the new date dividers*/
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: #fff; /*Changes color of the date text*/
+    background: rgba(0, 0, 0, .9); /*Changes color/opacity of the oval around the date*/
+}
+.theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
+    background: #3e8ec1; /*Changes color of the line of a date divider*/
+    border-bottom: 1px solid #3e8ec1;
+}
+.theme-dark .friends-table .messages .divider:not(.red) span, .theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    border: 1px solid #3e8ec1;/*Changes the outline of the oval around the date*/
+}
+.chat .divider:not(.red) span {
+    background-color: (0, 0, 0, 0);
+    border-radius: 8px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 0 10px;
+    position: relative;
+    z-index: 2;
+}
+/*Changes aspects of new messages bar*/
+.chat .new-messages-bar {
+    background-color: rgba(46, 95, 160, .9);
+}
+.chat .new-messages-bar:hover {
+    background-color: rgba(60, 160, 252, 1);
+}
+.chat .new-messages-bar button:last-child {
+    color: rgba(255, 255, 255, 0.5);
+}
+/*Changes the color of the ring around a user when they are speaking*/
+.avatarSpeaking-3teDH6 {
+    box-shadow:0 0 0 2px #26afff,inset 0 0 0 1.5px #2f3136;
+}
+/*Changes aspects of role appearance*/
+.theme-dark .channel-members h2 {
+    color: #5aa0fc;/* This changes the color of the role titles on the userlist */
+    text-align: center
+}
+/*Changes aspects of member when hovering*/
+.theme-dark .channel-members .member:hover {
+    background-color: #7b95af !important;
+    margin-bottom: .79em;
+    border: 1px solid #72b8ff;
+ }
+ 
+/********Changes aspects of channel list********/
+
+/*Changes the color of idle/default channels*/
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh, .nameLockedText-2fGz07, .nameLockedVoice-wNOMNa {
+    color: #537aad; 	
+}
+/*Changes the color of selected channels*/
+.nameSelectedText-32NDX5, .nameSelectedVoice-XpjYTw {
+    color: #00a1ff; 
+}
+.wrapperSelectedText-31jJa8 {
+background-color: rgba(0, 91, 145, .6)
+}
+/*Changes the color of muted channels*/
+.nameMutedText-1YDcP-, .nameMutedVoice-26k4cP {
+	color: #395170; 
+}
+/*Changes the color of hovered text channels*/
+.nameHoveredText-2FFqiz {
+    color: #65a4f7; 
+}
+/*Changes the color of hovered voice channels*/
+.nameHoveredVoice-TIoHRJ {
+    color: #65a4f7; 
+}
+/*Changes the color of locked text channels*/
+.nameLockedText-2fGz07 {
+    color: #7c3b3b; 
+}
+/*Changes the color of locked voice channels*/
+.nameLockedVoice-wNOMNa {
+    color: #7c3b3b; 
+}
+
+/********End of channel list changes********/
+
+/********Changes aspects of channel categories********/
+
+/*Changes the color of channel categories*/
+.nameDefault-Lnjrwm {
+    color: #7b95af; 
+}
+/*Changes the color of collapsed categories*/
+.nameCollapsed-3_ChMu {
+    color: #7b95af; 
+}
+/*Changes the color of the arrow on categories*/
+.iconDefault-xzclSQ {
+    color: #7b95af;
+}
+/*Changes the color of the arrow on collapsed categories*/
+.iconCollapsed-1INdMX {
+    color: #7b95af; 
+}
+/*Changes the color of the arrow on muted categories*/
+.iconMuted-Hb4ttQ {
+    color: #395170; 
+}
+/*Changes the color of  muted categories*/
+ .nameMuted-1n0LSj {
+    color: #395170; 
+}
+
+/********End channel categories changes********/
